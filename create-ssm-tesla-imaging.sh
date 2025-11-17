@@ -4,7 +4,7 @@
 # David Njoku – IT Infrastructure Engineer
 # Objectif : Automatiser l'installation de 10 000+ workstations via AWS SSM
 # Prérequis : AWS CLI v2.31.37 + EC2 Windows + KeyPair
-# Contexte : Migration WDS → AWS (IVANTI PPE)
+# Contexte : Déploiement WDS-PPE → (AWS-EC2-SSM) 
 # =============================================================================
 
 echo "ÉTAPE 1 : Création du document SSM Tesla-Imaging (type Command)..."
@@ -52,13 +52,6 @@ aws ssm describe-document \
   --name "Tesla-Imaging" \
   --query 'Document.Status'
 # → "Active"
-
-# =============================================================================
-# ÉTAPE 3 : Vérification de la version AWS CLI
-# =============================================================================
-echo "Vérification de la version AWS CLI utilisée..."
-aws --version
-# → aws-cli/2.31.37 Python/3.13.9 Linux/...
 
 # =============================================================================
 # FIN DU SCRIPT
