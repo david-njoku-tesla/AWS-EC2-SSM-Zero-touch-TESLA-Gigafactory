@@ -36,4 +36,4 @@ SSM (AWS Systems Manager) = WDS du futur
 
 ---
 **Tesla Scale Ready**  
-**Contact** : [LinkedIn](https://linkedin.com/in/david-njoku) | [X @Hiruma_911](https://x.com/Hiruma_911)
+**Contact** : [LinkedIn](https://linkedin.com/in/david-njoku)]
