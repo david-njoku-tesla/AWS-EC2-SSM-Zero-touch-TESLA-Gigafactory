@@ -1,0 +1,1 @@
+# AWS-EC2-SSM-Zero-touch-TESLA-Gigafactory
